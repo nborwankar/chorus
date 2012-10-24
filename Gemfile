@@ -58,7 +58,9 @@ end
 group :test, :development, :integration, :packaging do
   gem 'foreman', '0.46',         :require => false
   gem 'rake',                    :require => false
-  gem 'ruby-debug',              :require => false
+  #gem 'ruby-debug',              :require => false
+  gem 'ruby-debug-base19'
+  gem 'ruby-debug19'
   gem 'jasmine'
   gem 'rspec_api_documentation', :github => "GreenplumChorus/rspec_api_documentation"
   gem 'forgery'
